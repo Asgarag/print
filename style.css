@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	font-family: "Times New Roman";
+	font-size: 12pt;
+	height: 209mm;
+	width: 297mm;
+	background: url("ilovepdf_com-1.jpg") no-repeat;
+	background-size: contain;
+}
+
+.list {
+	padding-top: 35mm;
+	padding-right: 20mm;
+	padding-left: 46mm;
+}
+
+.table {
+	margin-top: 39mm;
+	width: 75mm;
+	font-size: 8pt;
+}
+
+.table__item:not(:last-child) {
+	margin-bottom: 2.3mm;
+}
+
+.table__number {
+	display: inline-block;
+	width: 7mm;
+	text-align: center;
+	margin-right: .3mm;
+}
+
+.table__date-place {
+	width: 21mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table__kind {
+	width: 21mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table__amount {
+	width: 21mm;
+	display: inline-block;
+	text-align: center;
+}
+
+.fio {
+	display: inline-block;
+	margin-left: 208mm;
+	margin-top: 68.5mm;
+	width: 73mm;
+	text-indent: 33mm;
+}
