@@ -8,53 +8,153 @@ body {
 	background-size: contain;
 }
 
-.list {
+.list1 {
 	padding-top: 35mm;
 	padding-right: 20mm;
 	padding-left: 46mm;
 }
 
-.table {
+.table1 {
 	margin-top: 39mm;
 	width: 75mm;
 	font-size: 8pt;
+	margin-right: 83mm;
+	display: inline-block;
+	vertical-align: top;
 }
 
-.table__item:not(:last-child) {
-	margin-bottom: 2.3mm;
+.table1__item:not(:last-child) {
+	margin-bottom: 2.2mm;
 }
 
-.table__number {
+.table1__number {
 	display: inline-block;
 	width: 7mm;
 	text-align: center;
 	margin-right: .3mm;
 }
 
-.table__date-place {
+.table1__date-place {
 	width: 21mm;
 	display: inline-block;
 	text-align: center;
 	margin-right: 2mm;
 }
 
-.table__kind {
+.table1__kind {
 	width: 21mm;
 	display: inline-block;
 	text-align: center;
 	margin-right: 2mm;
 }
 
-.table__amount {
+.table1__amount {
 	width: 21mm;
 	display: inline-block;
 	text-align: center;
 }
 
-.fio {
+.info1 {
 	display: inline-block;
-	margin-left: 208mm;
-	margin-top: 68.5mm;
-	width: 73mm;
+	vertical-align: top;
+	margin-top: 10mm;
+}
+
+.info1__organ {
+	display: inline-block;
+	width: 71mm;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.info1__fio {
+	display: block;
+	margin-top: 18.7mm;
+	margin-left: 2mm;
+	width: 69mm;
+	text-indent: 33mm;
+}
+
+.info1__date {
+	margin-top: 7mm;
+}
+
+.info1__day {
+	display: inline-block;
+	margin-left: 12mm;
+	width: 9mm;
+	text-align: center;
+}
+
+.info1__month {
+	display: inline-block;
+	margin-left: 1mm;
+	width: 30mm;
+	text-align: center;
+}
+
+.info1__year {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info1__id {
+	margin-top: .7mm;
+}
+
+.info1__serial {
+	display: inline-block;
+	margin-left: 9mm;
+	width: 13mm;
+	text-align: center;
+}
+
+.info1__number {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 39mm;
+	text-align: center;
+}
+
+.info1__place {
+	display: block;
+	margin-top: 2.7mm;
+	margin-left: 2mm;
+	width: 69mm;
+	text-indent: 19mm;
+}
+
+.info1__date-v {
+	margin-top: 15mm;
+}
+
+.info1__day-v {
+	display: inline-block;
+	margin-left: 33mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info1__month-v {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 14mm;
+	text-align: center;
+}
+
+.info1__year-v {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 6mm;
+	text-align: center;
+}
+
+.info1__fio-v {
+	display: block;
+	margin-top: 0.7mm;
+	margin-left: 2mm;
+	width: 69mm;
 	text-indent: 33mm;
 }
