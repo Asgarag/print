@@ -11,9 +11,7 @@ body {
 .list1 {
 	background: url("push-1.jpg") no-repeat;
 	background-size: contain;
-}
-
-.list1__inner {
+	box-sizing: border-box;
 	padding-top: 35mm;
 	padding-right: 20mm;
 	padding-left: 46mm;
@@ -167,20 +165,18 @@ body {
 	height: 9mm;
 }
 
-/* Пушные - другая сторона */
+/* Пушные - обратная сторона */
 
 .list2 {
 	background: url("push-2.jpg") no-repeat;
 	background-size: contain;
-}
-
-.list2__inner {
+	box-sizing: border-box;
 	padding-top: 36mm;
 	padding-right: 3mm;
 	padding-left: 17mm;
 }
 
-.table2:not(:last-child) {
+.table2 {
 	margin-top: 52mm;
 	width: 75mm;
 	font-size: 8pt;
@@ -387,9 +383,7 @@ body {
 .list3 {
 	background: url("pernat-1.jpg") no-repeat;
 	background-size: contain;
-}
-
-.list3__inner {
+	box-sizing: border-box;
 	padding-top: 39mm;
 	padding-right: 14mm;
 	padding-left: 38mm;
@@ -541,4 +535,566 @@ body {
 	text-indent: 33mm;
 	line-height: 1.9;
 	height: 15mm;
+}
+
+/* Пернатые - обратная сторона */
+
+.list4 {
+	background: url("pernat-2.jpg") no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+	padding-top: 40mm;
+	padding-right: 9mm;
+	padding-left: 10mm;
+}
+
+.table4 {
+	margin-top: 43mm;
+	width: 75mm;
+	font-size: 8pt;
+	margin-right: 8mm;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.table4__item:not(:last-child) {
+	margin-bottom: 2.1mm;
+}
+
+.table4__number {
+	display: inline-block;
+	width: 6mm;
+	text-align: center;
+	margin-right: 1.3mm;
+}
+
+.table4__kind {
+	width: 18mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table4__start-date {
+	width: 12mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 1mm;
+}
+
+.table4__end-date {
+	width: 11mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table4__norm-day {
+	width: 7mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table4__norm-season {
+	width: 7mm;
+	display: inline-block;
+	text-align: center;
+}
+
+.info4 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 6.9mm;
+}
+
+.info4__organ {
+	display: inline-block;
+	width: 75mm;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.info4__fio {
+	display: block;
+	margin-top: 21mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 29mm;
+	line-height: 1.6;
+	height: 13mm;
+}
+
+.info4__id {
+	margin-top: 3mm;
+}
+
+.info4__date {
+	margin-left: 38mm;
+	margin-top: .7mm;
+}
+
+.info4__day {
+	display: inline-block;
+	width: 5mm;
+	text-align: center;
+}
+
+.info4__month {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 17mm;
+	text-align: center;
+}
+
+.info4__year {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info4__serial {
+	display: inline-block;
+	margin-left: 34mm;
+	width: 12mm;
+	text-align: center;
+}
+
+.info4__number {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 24mm;
+	text-align: center;
+}
+
+.info4__place {
+	display: block;
+	margin-top: 2.7mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 19mm;
+	line-height: 1.4;
+	height: 22mm;
+
+}
+
+.info4__date-v {
+	margin-top: 5.5mm;
+}
+
+.info4__day-v {
+	display: inline-block;
+	margin-left: 20mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info4__month-v {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 15mm;
+	text-align: center;
+}
+
+.info4__year-v {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info4__fio-v {
+	display: block;
+	margin-top: 2.7mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 33mm;
+	line-height: 1.9;
+	height: 15mm;
+}
+
+.resource4 {
+	display: inline-block;
+	margin-left: 7mm;
+	margin-top: 2mm;
+	font-size: 10pt;
+}
+
+.resource4__item:not(:last-child) {
+	margin-bottom: 9.3mm;
+}
+
+.resource4__kind-amount {
+	display: block;
+	width: 25mm;
+	text-align: center;
+	margin-bottom: 7.3mm;
+}
+
+.resource4__day {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 3.6mm;
+	text-align: center;
+}
+
+.resource4__month {
+	display: inline-block;
+	margin-left: 1.5mm;
+	width: 7mm;
+	text-align: center;
+}
+
+.resource4__year {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 3mm;
+	text-align: center;
+}
+
+/* Копытные - лицевая сторона */
+
+.list5 {
+	background: url("cop-1.jpg") no-repeat;
+	background-size: contain;
+	padding-top: 12mm;
+	padding-right: 82mm;
+	padding-left: 8mm;
+	box-sizing: border-box;
+}
+
+.info5-1 {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10mm;
+}
+
+.info5-1__subject {
+	display: block;
+	width: 96mm;
+	text-align: center;
+	font-size: 8pt;
+	margin-bottom: 2mm;
+}
+
+.info5-1__organ {
+	display: block;
+	width: 96mm;
+	text-align: center;
+	font-size: 8pt;
+	margin-bottom: 42mm;
+	line-height: 3;
+}
+
+.info5-1__fio {
+	display: block;
+	margin-top: 1mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 31mm;
+	line-height: 1.6;
+	height: 13mm;
+}
+
+.info5-1__range-date:first-of-type {
+	margin-bottom: 3mm;
+}
+
+.info5-1__start-date {
+	display: inline-block;
+	margin-right: 9mm;
+	margin-left: 5mm;
+}
+
+.info5-1__end-date {
+	display: inline-block;
+}
+
+.info5-1__kind-hunt {
+	display: block;
+	margin-top: 3mm;
+	margin-left: 17mm;
+}
+
+.info5-1__id {
+	margin-top: 11mm;
+}
+
+.info5-1__date {
+	margin-left: 28mm;
+	margin-top: 3.7mm;
+}
+
+.info5-1__day {
+	display: inline-block;
+	width: 7mm;
+	text-align: center;
+}
+
+.info5-1__month {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 26mm;
+	text-align: center;
+}
+
+.info5-1__year {
+	display: inline-block;
+	margin-left: 5mm;
+	width: 6mm;
+	text-align: center;
+}
+
+.info5-1__day-hunt {
+	display: inline-block;
+	width: 9mm;
+	text-align: center;
+}
+
+.info5-1__month-hunt {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 21mm;
+	text-align: center;
+}
+
+.info5-1__year-hunt {
+	display: inline-block;
+	margin-left: 1mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info5-1__serial {
+	display: inline-block;
+	margin-left: 24mm;
+	width: 9mm;
+	text-align: center;
+}
+
+.info5-1__number {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 28mm;
+	text-align: center;
+}
+
+.info5-1__place {
+	display: block;
+	margin-top: 1.8mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 19mm;
+	line-height: 1.5;
+	height: 19mm;
+}
+
+.info5-1__description {
+	display: block;
+	margin-top: 8.8mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 58mm;
+	line-height: 1.5;
+	height: 12mm;
+}
+
+.info5-1__fio-v {
+	display: block;
+	margin-top: 11mm;
+	margin-left: 29mm;
+	width: 68mm;
+}
+
+.info5-1__date-v {
+	margin-top: 6.5mm;
+}
+
+.info5-1__day-v {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info5-1__month-v {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 20mm;
+	text-align: center;
+}
+
+.info5-1__year-v {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info5-2 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.info5-2__subject {
+	display: block;
+	width: 97mm;
+	text-align: center;
+	font-size: 8pt;
+	margin-bottom: 2mm;
+}
+
+.info5-2__organ {
+	display: block;
+	width: 97mm;
+	text-align: center;
+	font-size: 8pt;
+	margin-bottom: 41.7mm;
+	line-height: 3;
+}
+
+.info5-2__fio {
+	display: block;
+	margin-top: 1mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 31mm;
+	line-height: 1.6;
+	height: 13mm;
+}
+
+.info5-2__range-date:first-of-type {
+	margin-bottom: 3mm;
+}
+
+.info5-2__start-date {
+	display: inline-block;
+	margin-right: 10mm;
+	margin-left: 3mm;
+}
+
+.info5-2__end-date {
+	display: inline-block;
+}
+
+.info5-2__kind-hunt {
+	display: block;
+	margin-top: 3mm;
+	margin-left: 17mm;
+}
+
+.info5-2__id {
+	margin-top: 11mm;
+}
+
+.info5-2__date {
+	margin-left: 28mm;
+	margin-top: 3.7mm;
+}
+
+.info5-2__day {
+	display: inline-block;
+	width: 7mm;
+	text-align: center;
+}
+
+.info5-2__month {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 26mm;
+	text-align: center;
+}
+
+.info5-2__year {
+	display: inline-block;
+	margin-left: 5mm;
+	width: 6mm;
+	text-align: center;
+}
+
+.info5-2__day-hunt {
+	display: inline-block;
+	width: 9mm;
+	text-align: center;
+}
+
+.info5-2__month-hunt {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 21mm;
+	text-align: center;
+}
+
+.info5-2__year-hunt {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 4mm;
+	text-align: center;
+}
+
+.info5-2__serial {
+	display: inline-block;
+	margin-left: 24mm;
+	width: 9mm;
+	text-align: center;
+}
+
+.info5-2__number {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 28mm;
+	text-align: center;
+}
+
+.info5-2__place {
+	display: block;
+	margin-top: 1.8mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 19mm;
+	line-height: 1.5;
+	height: 19mm;
+}
+
+.info5-2__description {
+	display: block;
+	margin-top: 8.8mm;
+	margin-left: 2mm;
+	width: 95mm;
+	text-indent: 58mm;
+	line-height: 1.5;
+	height: 12mm;
+}
+
+.info5-2__fio-v {
+	display: block;
+	margin-top: 11mm;
+	margin-left: 29mm;
+	width: 68mm;
+}
+
+.info5-2__date-v {
+	margin-top: 6.5mm;
+}
+
+.info5-2__day-v {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info5-2__month-v {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 21mm;
+	text-align: center;
+}
+
+.info5-2__year-v {
+	display: inline-block;
+	margin-left: 5mm;
+	width: 5mm;
+	text-align: center;
 }
