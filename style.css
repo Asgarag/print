@@ -4,11 +4,16 @@ body {
 	font-size: 12pt;
 	height: 209mm;
 	width: 297mm;
-	background: url("ilovepdf_com-1.jpg") no-repeat;
+}
+
+/* Пушные - лицевая сторона */
+
+.list1 {
+	background: url("push-1.jpg") no-repeat;
 	background-size: contain;
 }
 
-.list1 {
+.list1__inner {
 	padding-top: 35mm;
 	padding-right: 20mm;
 	padding-left: 46mm;
@@ -73,6 +78,7 @@ body {
 	margin-left: 2mm;
 	width: 69mm;
 	text-indent: 33mm;
+	height: 9mm;
 }
 
 .info1__date {
@@ -124,6 +130,7 @@ body {
 	margin-left: 2mm;
 	width: 69mm;
 	text-indent: 19mm;
+	height: 14.5mm;
 }
 
 .info1__date-v {
@@ -157,4 +164,381 @@ body {
 	margin-left: 2mm;
 	width: 69mm;
 	text-indent: 33mm;
+	height: 9mm;
+}
+
+/* Пушные - другая сторона */
+
+.list2 {
+	background: url("push-2.jpg") no-repeat;
+	background-size: contain;
+}
+
+.list2__inner {
+	padding-top: 36mm;
+	padding-right: 3mm;
+	padding-left: 17mm;
+}
+
+.table2:not(:last-child) {
+	margin-top: 52mm;
+	width: 75mm;
+	font-size: 8pt;
+	margin-right: 1mm;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.table2__item:not(:last-child) {
+	margin-bottom: 3.2mm;
+}
+
+.table2__number {
+	display: inline-block;
+	width: 6mm;
+	text-align: center;
+	margin-right: 1.3mm;
+}
+
+.table2__kind {
+	width: 15mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table2__start-date {
+	width: 11mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 1mm;
+}
+
+.table2__end-date {
+	width: 10mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table2__norm-day {
+	width: 9mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table2__norm-season {
+	width: 10mm;
+	display: inline-block;
+	text-align: center;
+}
+
+.info2 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 11mm;
+	margin-left: 3mm;
+}
+
+.info2__organ {
+	display: inline-block;
+	width: 71mm;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.info2__fio {
+	display: block;
+	margin-top: 19.3mm;
+	margin-left: 2mm;
+	width: 69mm;
+	text-indent: 33mm;
+	height: 10mm;
+}
+
+.info2__date {
+	margin-top: 7.3mm;
+}
+
+.info2__day {
+	display: inline-block;
+	margin-left: 12mm;
+	width: 9mm;
+	text-align: center;
+}
+
+.info2__month {
+	display: inline-block;
+	margin-left: 1mm;
+	width: 30mm;
+	text-align: center;
+}
+
+.info2__year {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info2__id {
+	margin-top: .4mm;
+}
+
+.info2__serial {
+	display: inline-block;
+	margin-left: 9mm;
+	width: 13mm;
+	text-align: center;
+}
+
+.info2__number {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 39mm;
+	text-align: center;
+}
+
+.info2__place {
+	display: block;
+	margin-top: 0.7mm;
+	margin-left: 2mm;
+	width: 69mm;
+	text-indent: 19mm;
+	height: 14mm;
+}
+
+.info2__date-v {
+	margin-top: 15mm;
+}
+
+.info2__day-v {
+	display: inline-block;
+	margin-left: 33mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info2__month-v {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 14mm;
+	text-align: center;
+}
+
+.info2__year-v {
+	display: inline-block;
+	margin-left: 3mm;
+	width: 6mm;
+	text-align: center;
+}
+
+.info2__fio-v {
+	display: block;
+	margin-top: 2mm;
+	margin-left: 2mm;
+	width: 69mm;
+	text-indent: 33mm;
+	height: 10mm;
+}
+
+.resource2 {
+	display: inline-block;
+	margin-left: 8mm;
+	margin-top: 8mm;
+	font-size: 10pt;
+}
+
+.resource2__item:not(:last-child) {
+	margin-bottom: 8.5mm;
+}
+
+.resource2__kind-amount {
+	display: block;
+	width: 34mm;
+	text-align: center;
+	margin-bottom: 7.5mm;
+}
+
+.resource2__day {
+	display: inline-block;
+	margin-left: 1mm;
+	width: 7.6mm;
+	text-align: center;
+}
+
+.resource2__month {
+	display: inline-block;
+	margin-left: 1.5mm;
+	width: 14mm;
+	text-align: center;
+}
+
+.resource2__year {
+	display: inline-block;
+	margin-left: 2.7mm;
+	width: 5mm;
+	text-align: center;
+}
+
+/* Пернатые - лицевая сторона */
+
+.list3 {
+	background: url("pernat-1.jpg") no-repeat;
+	background-size: contain;
+}
+
+.list3__inner {
+	padding-top: 39mm;
+	padding-right: 14mm;
+	padding-left: 38mm;
+}
+
+.table3 {
+	margin-top: 29mm;
+	width: 77mm;
+	font-size: 8pt;
+	margin-right: 91mm;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.table3__item:not(:last-child) {
+	margin-bottom: 2.4mm;
+}
+
+.table3__number {
+	display: inline-block;
+	width: 7mm;
+	text-align: center;
+	margin-right: .3mm;
+}
+
+.table3__date-place {
+	width: 29mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 2mm;
+}
+
+.table3__kind {
+	width: 20mm;
+	display: inline-block;
+	text-align: center;
+	margin-right: 3mm;
+}
+
+.table3__amount {
+	width: 12mm;
+	display: inline-block;
+	text-align: center;
+}
+
+.info3 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 9.5mm;
+}
+
+.info3__organ {
+	display: inline-block;
+	width: 75mm;
+	text-align: center;
+	font-size: 8pt;
+}
+
+.info3__fio {
+	display: block;
+	margin-top: 22.7mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 29mm;
+	line-height: 1.6;
+	height: 13mm;
+}
+
+.info3__date {
+	margin-left: 38mm;
+	margin-top: .7mm;
+}
+
+.info3__day {
+	display: inline-block;
+	width: 5mm;
+	text-align: center;
+}
+
+.info3__month {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 17mm;
+	text-align: center;
+}
+
+.info3__year {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 8mm;
+	text-align: center;
+}
+
+.info3__serial {
+	display: inline-block;
+	margin-left: 33mm;
+	width: 13mm;
+	text-align: center;
+}
+
+.info3__number {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 24mm;
+	text-align: center;
+}
+
+.info3__place {
+	display: block;
+	margin-top: 2.7mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 19mm;
+	line-height: 1.4;
+	height: 22mm;
+
+}
+
+.info3__date-v {
+	margin-top: 5.5mm;
+}
+
+.info3__day-v {
+	display: inline-block;
+	margin-left: 22mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info3__month-v {
+	display: inline-block;
+	margin-left: 2mm;
+	width: 15mm;
+	text-align: center;
+}
+
+.info3__year-v {
+	display: inline-block;
+	margin-left: 4mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info3__fio-v {
+	display: block;
+	margin-top: 2.7mm;
+	margin-left: 2mm;
+	width: 73mm;
+	text-indent: 33mm;
+	line-height: 1.9;
+	height: 15mm;
 }
