@@ -35,11 +35,13 @@ body {
 	width: 7mm;
 	text-align: center;
 	margin-right: .3mm;
+	vertical-align: top;
 }
 
 .table1__date-place {
 	width: 21mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -47,6 +49,7 @@ body {
 .table1__kind {
 	width: 21mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -54,17 +57,18 @@ body {
 .table1__amount {
 	width: 21mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 }
 
 .info1 {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 10mm;
+	margin-top: 11.7mm;
 }
 
 .info1__organ {
-	display: inline-block;
+	display: block;
 	width: 71mm;
 	text-align: center;
 	font-size: 8pt;
@@ -72,7 +76,7 @@ body {
 
 .info1__fio {
 	display: block;
-	margin-top: 18.7mm;
+	margin-top: 19mm;
 	margin-left: 2mm;
 	width: 69mm;
 	text-indent: 33mm;
@@ -85,6 +89,7 @@ body {
 
 .info1__day {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 12mm;
 	width: 9mm;
 	text-align: center;
@@ -92,6 +97,7 @@ body {
 
 .info1__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1mm;
 	width: 30mm;
 	text-align: center;
@@ -99,6 +105,7 @@ body {
 
 .info1__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 8mm;
 	text-align: center;
@@ -110,6 +117,7 @@ body {
 
 .info1__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 9mm;
 	width: 13mm;
 	text-align: center;
@@ -117,6 +125,7 @@ body {
 
 .info1__number {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 39mm;
 	text-align: center;
@@ -137,6 +146,7 @@ body {
 
 .info1__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 33mm;
 	width: 8mm;
 	text-align: center;
@@ -144,6 +154,7 @@ body {
 
 .info1__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 14mm;
 	text-align: center;
@@ -151,6 +162,7 @@ body {
 
 .info1__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 6mm;
 	text-align: center;
@@ -191,6 +203,7 @@ body {
 
 .table2__number {
 	display: inline-block;
+	vertical-align: top;
 	width: 6mm;
 	text-align: center;
 	margin-right: 1.3mm;
@@ -199,6 +212,7 @@ body {
 .table2__kind {
 	width: 15mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -206,6 +220,7 @@ body {
 .table2__start-date {
 	width: 11mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 1mm;
 }
@@ -213,6 +228,7 @@ body {
 .table2__end-date {
 	width: 10mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -220,6 +236,7 @@ body {
 .table2__norm-day {
 	width: 9mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -227,18 +244,19 @@ body {
 .table2__norm-season {
 	width: 10mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 }
 
 .info2 {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 11mm;
+	margin-top: 12.8mm;
 	margin-left: 3mm;
 }
 
 .info2__organ {
-	display: inline-block;
+	display: block;
 	width: 71mm;
 	text-align: center;
 	font-size: 8pt;
@@ -259,6 +277,7 @@ body {
 
 .info2__day {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 12mm;
 	width: 9mm;
 	text-align: center;
@@ -266,6 +285,7 @@ body {
 
 .info2__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1mm;
 	width: 30mm;
 	text-align: center;
@@ -273,6 +293,7 @@ body {
 
 .info2__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 8mm;
 	text-align: center;
@@ -284,6 +305,7 @@ body {
 
 .info2__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 9mm;
 	width: 13mm;
 	text-align: center;
@@ -291,6 +313,7 @@ body {
 
 .info2__number {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 39mm;
 	text-align: center;
@@ -311,6 +334,7 @@ body {
 
 .info2__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 33mm;
 	width: 8mm;
 	text-align: center;
@@ -318,6 +342,7 @@ body {
 
 .info2__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 14mm;
 	text-align: center;
@@ -325,6 +350,7 @@ body {
 
 .info2__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 6mm;
 	text-align: center;
@@ -341,6 +367,7 @@ body {
 
 .resource2 {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 8mm;
 	margin-top: 8mm;
 	font-size: 10pt;
@@ -359,6 +386,7 @@ body {
 
 .resource2__day {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1mm;
 	width: 7.6mm;
 	text-align: center;
@@ -366,6 +394,7 @@ body {
 
 .resource2__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1.5mm;
 	width: 14mm;
 	text-align: center;
@@ -373,6 +402,7 @@ body {
 
 .resource2__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2.7mm;
 	width: 5mm;
 	text-align: center;
@@ -404,6 +434,7 @@ body {
 
 .table3__number {
 	display: inline-block;
+	vertical-align: top;
 	width: 7mm;
 	text-align: center;
 	margin-right: .3mm;
@@ -412,6 +443,7 @@ body {
 .table3__date-place {
 	width: 29mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -419,6 +451,7 @@ body {
 .table3__kind {
 	width: 20mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 3mm;
 }
@@ -426,17 +459,18 @@ body {
 .table3__amount {
 	width: 12mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 }
 
 .info3 {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 9.5mm;
+	margin-top: 10.5mm;
 }
 
 .info3__organ {
-	display: inline-block;
+	display: block;
 	width: 75mm;
 	text-align: center;
 	font-size: 8pt;
@@ -444,7 +478,7 @@ body {
 
 .info3__fio {
 	display: block;
-	margin-top: 22.7mm;
+	margin-top: 23mm;
 	margin-left: 2mm;
 	width: 73mm;
 	text-indent: 29mm;
@@ -452,19 +486,25 @@ body {
 	height: 13mm;
 }
 
+.info3__id {
+	margin-top: 1mm;
+}
+
 .info3__date {
 	margin-left: 38mm;
-	margin-top: .7mm;
+	margin-top: 1mm;
 }
 
 .info3__day {
 	display: inline-block;
+	vertical-align: top;
 	width: 5mm;
 	text-align: center;
 }
 
 .info3__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 17mm;
 	text-align: center;
@@ -472,6 +512,7 @@ body {
 
 .info3__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 8mm;
 	text-align: center;
@@ -479,6 +520,7 @@ body {
 
 .info3__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 33mm;
 	width: 13mm;
 	text-align: center;
@@ -487,13 +529,14 @@ body {
 .info3__number {
 	display: inline-block;
 	margin-left: 4mm;
+	vertical-align: top;
 	width: 24mm;
 	text-align: center;
 }
 
 .info3__place {
 	display: block;
-	margin-top: 2.7mm;
+	margin-top: 2.5mm;
 	margin-left: 2mm;
 	width: 73mm;
 	text-indent: 19mm;
@@ -508,6 +551,7 @@ body {
 
 .info3__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 22mm;
 	width: 5mm;
 	text-align: center;
@@ -515,6 +559,7 @@ body {
 
 .info3__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 15mm;
 	text-align: center;
@@ -522,6 +567,7 @@ body {
 
 .info3__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 5mm;
 	text-align: center;
@@ -529,7 +575,7 @@ body {
 
 .info3__fio-v {
 	display: block;
-	margin-top: 2.7mm;
+	margin-top: 2mm;
 	margin-left: 2mm;
 	width: 73mm;
 	text-indent: 33mm;
@@ -563,6 +609,7 @@ body {
 
 .table4__number {
 	display: inline-block;
+	vertical-align: top;
 	width: 6mm;
 	text-align: center;
 	margin-right: 1.3mm;
@@ -571,6 +618,7 @@ body {
 .table4__kind {
 	width: 18mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -578,6 +626,7 @@ body {
 .table4__start-date {
 	width: 12mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 1mm;
 }
@@ -585,6 +634,7 @@ body {
 .table4__end-date {
 	width: 11mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -592,6 +642,7 @@ body {
 .table4__norm-day {
 	width: 7mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
 }
@@ -599,17 +650,18 @@ body {
 .table4__norm-season {
 	width: 7mm;
 	display: inline-block;
+	vertical-align: top;
 	text-align: center;
 }
 
 .info4 {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 6.9mm;
+	margin-top: 8.9mm;
 }
 
 .info4__organ {
-	display: inline-block;
+	display: block;
 	width: 75mm;
 	text-align: center;
 	font-size: 8pt;
@@ -636,12 +688,14 @@ body {
 
 .info4__day {
 	display: inline-block;
+	vertical-align: top;
 	width: 5mm;
 	text-align: center;
 }
 
 .info4__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 17mm;
 	text-align: center;
@@ -649,6 +703,7 @@ body {
 
 .info4__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 8mm;
 	text-align: center;
@@ -656,6 +711,7 @@ body {
 
 .info4__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 34mm;
 	width: 12mm;
 	text-align: center;
@@ -663,6 +719,7 @@ body {
 
 .info4__number {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 24mm;
 	text-align: center;
@@ -685,6 +742,7 @@ body {
 
 .info4__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 20mm;
 	width: 5mm;
 	text-align: center;
@@ -692,6 +750,7 @@ body {
 
 .info4__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 15mm;
 	text-align: center;
@@ -699,6 +758,7 @@ body {
 
 .info4__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 5mm;
 	text-align: center;
@@ -734,6 +794,7 @@ body {
 
 .resource4__day {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 3.6mm;
 	text-align: center;
@@ -741,6 +802,7 @@ body {
 
 .resource4__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1.5mm;
 	width: 7mm;
 	text-align: center;
@@ -748,6 +810,7 @@ body {
 
 .resource4__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 3mm;
 	text-align: center;
@@ -803,12 +866,14 @@ body {
 
 .info5-1__start-date {
 	display: inline-block;
+	vertical-align: top;
 	margin-right: 9mm;
 	margin-left: 5mm;
 }
 
 .info5-1__end-date {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .info5-1__kind-hunt {
@@ -828,12 +893,14 @@ body {
 
 .info5-1__day {
 	display: inline-block;
+	vertical-align: top;
 	width: 7mm;
 	text-align: center;
 }
 
 .info5-1__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 26mm;
 	text-align: center;
@@ -841,6 +908,7 @@ body {
 
 .info5-1__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 5mm;
 	width: 6mm;
 	text-align: center;
@@ -848,12 +916,14 @@ body {
 
 .info5-1__day-hunt {
 	display: inline-block;
+	vertical-align: top;
 	width: 9mm;
 	text-align: center;
 }
 
 .info5-1__month-hunt {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 21mm;
 	text-align: center;
@@ -861,13 +931,16 @@ body {
 
 .info5-1__year-hunt {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 1mm;
 	width: 5mm;
 	text-align: center;
+	font-size: 9pt;
 }
 
 .info5-1__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 24mm;
 	width: 9mm;
 	text-align: center;
@@ -875,6 +948,7 @@ body {
 
 .info5-1__number {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 28mm;
 	text-align: center;
@@ -913,6 +987,7 @@ body {
 
 .info5-1__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 5mm;
 	text-align: center;
@@ -920,6 +995,7 @@ body {
 
 .info5-1__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 20mm;
 	text-align: center;
@@ -927,6 +1003,7 @@ body {
 
 .info5-1__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 4mm;
 	width: 5mm;
 	text-align: center;
@@ -970,12 +1047,14 @@ body {
 
 .info5-2__start-date {
 	display: inline-block;
+	vertical-align: top;
 	margin-right: 10mm;
 	margin-left: 3mm;
 }
 
 .info5-2__end-date {
 	display: inline-block;
+	vertical-align: top;
 }
 
 .info5-2__kind-hunt {
@@ -995,12 +1074,14 @@ body {
 
 .info5-2__day {
 	display: inline-block;
+	vertical-align: top;
 	width: 7mm;
 	text-align: center;
 }
 
 .info5-2__month {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 26mm;
 	text-align: center;
@@ -1008,6 +1089,7 @@ body {
 
 .info5-2__year {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 5mm;
 	width: 6mm;
 	text-align: center;
@@ -1015,12 +1097,14 @@ body {
 
 .info5-2__day-hunt {
 	display: inline-block;
+	vertical-align: top;
 	width: 9mm;
 	text-align: center;
 }
 
 .info5-2__month-hunt {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 21mm;
 	text-align: center;
@@ -1028,13 +1112,16 @@ body {
 
 .info5-2__year-hunt {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 4mm;
 	text-align: center;
+	font-size: 9pt;
 }
 
 .info5-2__serial {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 24mm;
 	width: 9mm;
 	text-align: center;
@@ -1042,6 +1129,7 @@ body {
 
 .info5-2__number {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 28mm;
 	text-align: center;
@@ -1080,6 +1168,7 @@ body {
 
 .info5-2__day-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 2mm;
 	width: 5mm;
 	text-align: center;
@@ -1087,6 +1176,7 @@ body {
 
 .info5-2__month-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 3mm;
 	width: 21mm;
 	text-align: center;
@@ -1094,7 +1184,129 @@ body {
 
 .info5-2__year-v {
 	display: inline-block;
+	vertical-align: top;
 	margin-left: 5mm;
 	width: 5mm;
 	text-align: center;
 }
+
+/* Копытные - обратная сторона */
+
+.list6 {
+	background: url("cop-2.jpg") no-repeat;
+	background-size: contain;
+	box-sizing: border-box;
+	padding-right: 117mm;
+	padding-left: 11mm;
+	padding-top: 2mm;
+}
+
+.resource6 {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.resource6__item:not(:last-child) {
+	margin-bottom: 6.8mm;
+}
+
+.resource6__kind {
+	display: block;
+	width: 51mm;
+	text-align: center;
+	margin-bottom: 5.5mm;
+}
+
+.resource6__day {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15mm;
+	width: 6.6mm;
+	text-align: center;
+}
+
+.resource6__month {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2.5mm;
+	width: 14mm;
+	text-align: center;
+}
+
+.resource6__year {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 6.7mm;
+	width: 5mm;
+	text-align: center;
+}
+
+.info6 {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 126mm;
+	margin-left: 17mm;
+}
+
+.info6__kind {
+	display: block;
+	margin-left: 41mm;
+	margin-bottom: 9mm;
+	width: 58mm;
+	text-align: center;
+}
+
+.info6__age {
+	display: block;
+	margin-left: 30mm;
+	width: 69mm;
+	text-align: center;
+}
+
+.info6__description {
+	margin-top: 9mm;
+	margin-left: 41mm;
+}
+
+.info6__weight {
+	display: inline-block;
+	vertical-align: top;
+	width: 30mm;
+	text-align: center;
+}
+
+.info6__embryo {
+	display: inline-block;
+	vertical-align: top;
+	width: 18mm;
+	text-align: center;
+	margin-left: 4mm;
+}
+
+.info6__place {
+	display: block;
+	margin-top: 3mm;
+	width: 76mm;
+	margin-left: 23mm;
+}
+
+.info6__date {
+	margin-top: 8.5mm;
+	font-size: 9pt;
+}
+
+.info6__date-wound {
+	display: inline-block;
+	vertical-align: top;
+	width: 47mm;
+	text-align: center;
+	margin-right: 3mm;
+}
+
+.info6__date-extraction {
+	display: inline-block;
+	vertical-align: top;
+	width: 45mm;
+	text-align: center;
+}
+
