@@ -2,8 +2,6 @@ body {
 	margin: 0;
 	font-family: "Times New Roman";
 	font-size: 12pt;
-	height: 209mm;
-	width: 297mm;
 }
 
 /* Пушные - лицевая сторона */
@@ -15,10 +13,12 @@ body {
 	padding-top: 35mm;
 	padding-right: 20mm;
 	padding-left: 46mm;
+	height: 209mm;
+	width: 297mm;
 }
 
 .table1 {
-	margin-top: 39mm;
+	margin-top: 38.7mm;
 	width: 75mm;
 	font-size: 8pt;
 	margin-right: 83mm;
@@ -26,8 +26,9 @@ body {
 	vertical-align: top;
 }
 
-.table1__item:not(:last-child) {
-	margin-bottom: 2.2mm;
+.table1__item {
+	min-height: 5.03mm;
+	line-height: 5.03mm;
 }
 
 .table1__number {
@@ -43,22 +44,24 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
+	margin-right: 1.5mm;
 }
 
 .table1__kind {
-	width: 21mm;
+	width: 22mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
 	margin-right: 2mm;
+	font-size: 7pt;
 }
 
 .table1__amount {
-	width: 21mm;
+	width: 18mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+	font-size: 7pt;
 }
 
 .info1 {
@@ -71,12 +74,12 @@ body {
 	display: block;
 	width: 71mm;
 	text-align: center;
-	font-size: 8pt;
+	font-size: 6pt;
 }
 
 .info1__fio {
 	display: block;
-	margin-top: 19mm;
+	margin-top: 19.5mm;
 	margin-left: 2mm;
 	width: 69mm;
 	text-indent: 33mm;
@@ -186,10 +189,12 @@ body {
 	padding-top: 36mm;
 	padding-right: 3mm;
 	padding-left: 17mm;
+	height: 209mm;
+	width: 297mm;
 }
 
 .table2 {
-	margin-top: 52mm;
+	margin-top: 51mm;
 	width: 75mm;
 	font-size: 8pt;
 	margin-right: 1mm;
@@ -197,24 +202,25 @@ body {
 	vertical-align: top;
 }
 
-.table2__item:not(:last-child) {
-	margin-bottom: 3.2mm;
+.table2__item {
+	min-height: 6.1mm;
+	line-height: 6.1mm;
 }
 
 .table2__number {
 	display: inline-block;
 	vertical-align: top;
-	width: 6mm;
+	width: 5mm;
 	text-align: center;
-	margin-right: 1.3mm;
+	margin-right: 0.7mm;
 }
 
 .table2__kind {
-	width: 15mm;
+	width: 19mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
+	font-size: 6pt;
 }
 
 .table2__start-date {
@@ -230,22 +236,23 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
+	margin-right: .5mm;
 }
 
 .table2__norm-day {
-	width: 9mm;
+	width: 11.8mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
+	font-size: 6pt;
 }
 
 .table2__norm-season {
-	width: 10mm;
+	width: 11.8mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+	font-size: 6pt;
 }
 
 .info2 {
@@ -379,9 +386,10 @@ body {
 
 .resource2__kind-amount {
 	display: block;
-	width: 34mm;
+	width: 37mm;
 	text-align: center;
-	margin-bottom: 7.5mm;
+	margin-bottom: 9.5mm;
+	font-size: 6pt;
 }
 
 .resource2__day {
@@ -417,10 +425,12 @@ body {
 	padding-top: 39mm;
 	padding-right: 14mm;
 	padding-left: 38mm;
+	height: 209mm;
+	width: 297mm;
 }
 
 .table3 {
-	margin-top: 29mm;
+	margin-top: 28.5mm;
 	width: 77mm;
 	font-size: 8pt;
 	margin-right: 91mm;
@@ -428,8 +438,9 @@ body {
 	vertical-align: top;
 }
 
-.table3__item:not(:last-child) {
-	margin-bottom: 2.4mm;
+.table3__item {
+	min-height: 5.3mm;
+	line-height: 5.3mm;
 }
 
 .table3__number {
@@ -445,35 +456,37 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
+	margin-right: 1mm;
 }
 
 .table3__kind {
-	width: 20mm;
+	width: 22mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 3mm;
+	margin-right: 1mm;
+	font-size: 7pt;
 }
 
 .table3__amount {
-	width: 12mm;
+	width: 14mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
+	font-size: 7pt;
 }
 
 .info3 {
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 10.5mm;
+	margin-top: 10.8mm;
 }
 
 .info3__organ {
 	display: block;
 	width: 75mm;
 	text-align: center;
-	font-size: 8pt;
+	font-size: 6pt;
 }
 
 .info3__fio {
@@ -592,10 +605,12 @@ body {
 	padding-top: 40mm;
 	padding-right: 9mm;
 	padding-left: 10mm;
+	height: 209mm;
+	width: 297mm;
 }
 
 .table4 {
-	margin-top: 43mm;
+	margin-top: 42mm;
 	width: 75mm;
 	font-size: 8pt;
 	margin-right: 8mm;
@@ -603,8 +618,9 @@ body {
 	vertical-align: top;
 }
 
-.table4__item:not(:last-child) {
-	margin-bottom: 2.1mm;
+.table4__item {
+	min-height: 5mm;
+	line-height: 5mm;
 }
 
 .table4__number {
@@ -612,15 +628,14 @@ body {
 	vertical-align: top;
 	width: 6mm;
 	text-align: center;
-	margin-right: 1.3mm;
+	margin-right: .3mm;
 }
 
 .table4__kind {
-	width: 18mm;
+	width: 21mm;
 	display: inline-block;
 	vertical-align: top;
 	text-align: center;
-	margin-right: 2mm;
 }
 
 .table4__start-date {
@@ -782,14 +797,16 @@ body {
 }
 
 .resource4__item:not(:last-child) {
-	margin-bottom: 9.3mm;
+	margin-bottom: 8.9mm;
 }
 
 .resource4__kind-amount {
 	display: block;
-	width: 25mm;
+	width: 26mm;
 	text-align: center;
-	margin-bottom: 7.3mm;
+	margin-bottom: 6.8mm;
+	height: 5mm;
+	font-size: 6pt;
 }
 
 .resource4__day {
@@ -825,6 +842,8 @@ body {
 	padding-right: 82mm;
 	padding-left: 8mm;
 	box-sizing: border-box;
+	height: 209mm;
+	width: 297mm;
 }
 
 .info5-1 {
@@ -1199,6 +1218,8 @@ body {
 	padding-right: 117mm;
 	padding-left: 11mm;
 	padding-top: 2mm;
+	height: 209mm;
+	width: 297mm;
 }
 
 .resource6 {
@@ -1207,7 +1228,7 @@ body {
 }
 
 .resource6__item:not(:last-child) {
-	margin-bottom: 6.8mm;
+	margin-bottom: 7.7mm;
 }
 
 .resource6__kind {
@@ -1215,6 +1236,7 @@ body {
 	width: 51mm;
 	text-align: center;
 	margin-bottom: 5.5mm;
+	font-size: 9pt;
 }
 
 .resource6__day {
@@ -1254,6 +1276,7 @@ body {
 	margin-bottom: 9mm;
 	width: 58mm;
 	text-align: center;
+	font-size: 11pt;
 }
 
 .info6__age {
